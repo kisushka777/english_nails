@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pl';
+    src: url(/fonts/PlayfairDisplay.ttf);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    background-color: rgb(246, 212, 244);
+    padding-bottom: 40px;
+}
+
+
+.section-one .container .title {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 150px;
+    font-family: 'Pl';
+    font-style: oblique;
+}
+
+.section-two .container .title {
+    font-family: 'Pl';
+    font-size: 54px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+
+}
+
+.section-two .container .cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.section-two .container .cards .card {
+    width: 480px;
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two .container .cards .card:nth-child(1) .img {
+    background: url('../img/photo_5269562716710890437_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.section-two .container .cards .card:nth-child(2) .img {
+    background: url('../img/photo_5269562716710890438_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.section-two .container .cards .card:nth-child(3) .img {
+    background: url('../img/photo_5269562716710890439_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.section-two .container .cardss {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.section-two .container .cardss .card {
+    width: 480px;
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.section-two .container .cardss .card:nth-child(1) .img {
+    background: url('../img/photo_5269562716710890440_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    
+}
+
+.section-two .container .cardss .card:nth-child(2) .img {
+    background: url('../img/photo_5269562716710890446_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.section-two .container .cardss .card:nth-child(3) .img {
+    background: url('../img/photo_5269562716710890445_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.section-two .container .cardsss {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.section-two .container .cardsss .card {
+    width: 480px;
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.section-two .container .cardsss .card:nth-child(1) .img {
+    background: url('../img/photo_5269562716710890449_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.section-two .container .cardsss .card:nth-child(2) .img {
+    background: url('../img/photo_5269562716710890450_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.section-two .container .cardsss .card:nth-child(3) .img {
+    background: url('../img/photo_5269562716710890451_y.jpg');
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
